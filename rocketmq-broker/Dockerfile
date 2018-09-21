@@ -14,9 +14,10 @@ WORKDIR ${ROCKETMQ_HOME}
 EXPOSE 10909 10911
 
 ENV NAMESRV_ADDR localhost:9876
+ENV MEMORY_CONF "-Xms256m -Xmx2048m -Xmn256m"
 
-RUN echo -e "\nbrokerIP1 = 139.159.247.163\n" >> ./conf/broker.conf
-
+# https://www.guonanjun.com/183.html
+RUN echo -e "\nbrokerIP1 = 139.159.247.163\n" >> ./conf/broker.conf && sed -i 's/-Xms8g -Xmx8g -Xmn4g/${MEMORY_CONF}/g' ${ROCKETMQ_HOME}/bin/runbroker.sh
 
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT="${JAVA_OPT} -Duser.home=/opt" && sh mqbroker -n ${NAMESRV_ADDR} -c ../conf/broker.conf
