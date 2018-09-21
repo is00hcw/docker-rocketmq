@@ -1,0 +1,5 @@
+2018-09-10 11:49:23 INFO AdminBrokerThread_1 - tryLockBatch, message queue not locked, I got it. Group: example_group_name NewClientId: 172.17.133.225@56088 MessageQueue [topic=TopicTest, brokerName=DESKTOP-9RB3OE8, queueId=3]
+2018-09-10 11:49:23 INFO AdminBrokerThread_1 - tryLockBatch, message queue not locked, I got it. Group: example_group_name NewClientId: 172.17.133.225@56088 MessageQueue [topic=TopicTest, brokerName=DESKTOP-9RB3OE8, queueId=2]
+2018-09-10 11:49:23 INFO AdminBrokerThread_1 - tryLockBatch, message queue not locked, I got it. Group: example_group_name NewClientId: 172.17.133.225@56088 MessageQueue [topic=%RETRY%example_group_name, brokerName=DESKTOP-9RB3OE8, queueId=0]
+2018-09-10 11:49:23 INFO AdminBrokerThread_1 - tryLockBatch, message queue not locked, I got it. Group: example_group_name NewClientId: 172.17.133.225@56088 MessageQueue [topic=TopicTest, brokerName=DESKTOP-9RB3OE8, queueId=1]
+2018-09-10 11:49:23 INFO AdminBrokerThread_1 - tryLockBatch, message queue not locked, I got it. Group: example_group_name NewClientId: 172.17.133.225@56088 MessageQueue [topic=TopicTest, brokerName=DESKTOP-9RB3OE8, queueId=0]

@@ -1,0 +1,12 @@
+2018-09-10 09:40:06 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7403c468
+2018-09-10 09:40:06 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3891771e
+2018-09-10 09:40:06 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@78ac1102
+2018-09-10 09:40:06 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2de8284b
+2018-09-10 10:10:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7403c468
+2018-09-10 10:10:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3891771e
+2018-09-10 10:10:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@78ac1102
+2018-09-10 10:10:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2de8284b
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7403c468
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3891771e
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@78ac1102
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2de8284b

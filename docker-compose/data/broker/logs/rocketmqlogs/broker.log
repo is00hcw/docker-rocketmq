@@ -1,0 +1,1733 @@
+2018-09-10 09:40:08 INFO main - rocketmqHome=/opt/rocketmq-4.3.0
+2018-09-10 09:40:08 INFO main - namesrvAddr=namesrv:9876
+2018-09-10 09:40:08 INFO main - brokerIP1=172.18.0.3
+2018-09-10 09:40:08 INFO main - brokerIP2=172.18.0.3
+2018-09-10 09:40:08 INFO main - brokerName=481b34555c8a
+2018-09-10 09:40:08 INFO main - brokerClusterName=DefaultCluster
+2018-09-10 09:40:08 INFO main - brokerId=0
+2018-09-10 09:40:08 INFO main - brokerPermission=6
+2018-09-10 09:40:08 INFO main - defaultTopicQueueNums=8
+2018-09-10 09:40:08 INFO main - autoCreateTopicEnable=true
+2018-09-10 09:40:08 INFO main - clusterTopicEnable=true
+2018-09-10 09:40:08 INFO main - brokerTopicEnable=true
+2018-09-10 09:40:08 INFO main - autoCreateSubscriptionGroup=true
+2018-09-10 09:40:08 INFO main - messageStorePlugIn=
+2018-09-10 09:40:08 INFO main - sendMessageThreadPoolNums=1
+2018-09-10 09:40:08 INFO main - pullMessageThreadPoolNums=20
+2018-09-10 09:40:08 INFO main - queryMessageThreadPoolNums=10
+2018-09-10 09:40:08 INFO main - adminBrokerThreadPoolNums=16
+2018-09-10 09:40:08 INFO main - clientManageThreadPoolNums=32
+2018-09-10 09:40:08 INFO main - consumerManageThreadPoolNums=32
+2018-09-10 09:40:08 INFO main - heartbeatThreadPoolNums=2
+2018-09-10 09:40:08 INFO main - flushConsumerOffsetInterval=5000
+2018-09-10 09:40:08 INFO main - flushConsumerOffsetHistoryInterval=60000
+2018-09-10 09:40:08 INFO main - rejectTransactionMessage=false
+2018-09-10 09:40:08 INFO main - fetchNamesrvAddrByAddressServer=false
+2018-09-10 09:40:08 INFO main - sendThreadPoolQueueCapacity=10000
+2018-09-10 09:40:08 INFO main - pullThreadPoolQueueCapacity=100000
+2018-09-10 09:40:08 INFO main - queryThreadPoolQueueCapacity=20000
+2018-09-10 09:40:08 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2018-09-10 09:40:08 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2018-09-10 09:40:08 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2018-09-10 09:40:08 INFO main - filterServerNums=0
+2018-09-10 09:40:08 INFO main - longPollingEnable=true
+2018-09-10 09:40:08 INFO main - shortPollingTimeMills=1000
+2018-09-10 09:40:08 INFO main - notifyConsumerIdsChangedEnable=true
+2018-09-10 09:40:08 INFO main - highSpeedMode=false
+2018-09-10 09:40:08 INFO main - commercialEnable=true
+2018-09-10 09:40:08 INFO main - commercialTimerCount=1
+2018-09-10 09:40:08 INFO main - commercialTransCount=1
+2018-09-10 09:40:08 INFO main - commercialBigCount=1
+2018-09-10 09:40:08 INFO main - commercialBaseCount=1
+2018-09-10 09:40:08 INFO main - transferMsgByHeap=true
+2018-09-10 09:40:08 INFO main - maxDelayTime=40
+2018-09-10 09:40:08 INFO main - regionId=DefaultRegion
+2018-09-10 09:40:08 INFO main - registerBrokerTimeoutMills=6000
+2018-09-10 09:40:08 INFO main - slaveReadEnable=false
+2018-09-10 09:40:08 INFO main - disableConsumeIfConsumerReadSlowly=false
+2018-09-10 09:40:08 INFO main - consumerFallbehindThreshold=17179869184
+2018-09-10 09:40:08 INFO main - brokerFastFailureEnable=true
+2018-09-10 09:40:08 INFO main - waitTimeMillsInSendQueue=200
+2018-09-10 09:40:08 INFO main - waitTimeMillsInPullQueue=5000
+2018-09-10 09:40:08 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2018-09-10 09:40:08 INFO main - startAcceptSendRequestTimeStamp=0
+2018-09-10 09:40:08 INFO main - traceOn=true
+2018-09-10 09:40:08 INFO main - enableCalcFilterBitMap=false
+2018-09-10 09:40:08 INFO main - expectConsumerNumUseFilter=32
+2018-09-10 09:40:08 INFO main - maxErrorRateOfBloomFilter=20
+2018-09-10 09:40:08 INFO main - filterDataCleanTimeSpan=86400000
+2018-09-10 09:40:08 INFO main - filterSupportRetry=false
+2018-09-10 09:40:08 INFO main - enablePropertyFilter=false
+2018-09-10 09:40:08 INFO main - compressedRegister=false
+2018-09-10 09:40:08 INFO main - forceRegister=true
+2018-09-10 09:40:08 INFO main - registerNameServerPeriod=30000
+2018-09-10 09:40:08 INFO main - transactionTimeOut=3000
+2018-09-10 09:40:08 INFO main - transactionCheckMax=5
+2018-09-10 09:40:08 INFO main - transactionCheckInterval=60000
+2018-09-10 09:40:08 INFO main - listenPort=10911
+2018-09-10 09:40:08 INFO main - serverWorkerThreads=8
+2018-09-10 09:40:08 INFO main - serverCallbackExecutorThreads=0
+2018-09-10 09:40:08 INFO main - serverSelectorThreads=3
+2018-09-10 09:40:08 INFO main - serverOnewaySemaphoreValue=256
+2018-09-10 09:40:08 INFO main - serverAsyncSemaphoreValue=64
+2018-09-10 09:40:08 INFO main - serverChannelMaxIdleTimeSeconds=120
+2018-09-10 09:40:08 INFO main - serverSocketSndBufSize=131072
+2018-09-10 09:40:08 INFO main - serverSocketRcvBufSize=131072
+2018-09-10 09:40:08 INFO main - serverPooledByteBufAllocatorEnable=true
+2018-09-10 09:40:08 INFO main - useEpollNativeSelector=false
+2018-09-10 09:40:08 INFO main - clientWorkerThreads=4
+2018-09-10 09:40:08 INFO main - clientCallbackExecutorThreads=2
+2018-09-10 09:40:08 INFO main - clientOnewaySemaphoreValue=65535
+2018-09-10 09:40:08 INFO main - clientAsyncSemaphoreValue=65535
+2018-09-10 09:40:08 INFO main - connectTimeoutMillis=3000
+2018-09-10 09:40:08 INFO main - channelNotActiveInterval=60000
+2018-09-10 09:40:08 INFO main - clientChannelMaxIdleTimeSeconds=120
+2018-09-10 09:40:08 INFO main - clientSocketSndBufSize=131072
+2018-09-10 09:40:08 INFO main - clientSocketRcvBufSize=131072
+2018-09-10 09:40:08 INFO main - clientPooledByteBufAllocatorEnable=false
+2018-09-10 09:40:08 INFO main - clientCloseSocketIfTimeout=false
+2018-09-10 09:40:08 INFO main - useTLS=false
+2018-09-10 09:40:08 INFO main - storePathRootDir=/opt/store
+2018-09-10 09:40:08 INFO main - storePathCommitLog=/opt/store/commitlog
+2018-09-10 09:40:08 INFO main - mapedFileSizeCommitLog=1073741824
+2018-09-10 09:40:08 INFO main - mapedFileSizeConsumeQueue=6000000
+2018-09-10 09:40:08 INFO main - enableConsumeQueueExt=false
+2018-09-10 09:40:08 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2018-09-10 09:40:08 INFO main - bitMapLengthConsumeQueueExt=64
+2018-09-10 09:40:08 INFO main - flushIntervalCommitLog=500
+2018-09-10 09:40:08 INFO main - commitIntervalCommitLog=200
+2018-09-10 09:40:08 INFO main - useReentrantLockWhenPutMessage=false
+2018-09-10 09:40:08 INFO main - flushCommitLogTimed=false
+2018-09-10 09:40:08 INFO main - flushIntervalConsumeQueue=1000
+2018-09-10 09:40:08 INFO main - cleanResourceInterval=10000
+2018-09-10 09:40:08 INFO main - deleteCommitLogFilesInterval=100
+2018-09-10 09:40:08 INFO main - deleteConsumeQueueFilesInterval=100
+2018-09-10 09:40:08 INFO main - destroyMapedFileIntervalForcibly=120000
+2018-09-10 09:40:08 INFO main - redeleteHangedFileInterval=120000
+2018-09-10 09:40:08 INFO main - deleteWhen=04
+2018-09-10 09:40:08 INFO main - diskMaxUsedSpaceRatio=75
+2018-09-10 09:40:08 INFO main - fileReservedTime=72
+2018-09-10 09:40:08 INFO main - putMsgIndexHightWater=600000
+2018-09-10 09:40:08 INFO main - maxMessageSize=4194304
+2018-09-10 09:40:08 INFO main - checkCRCOnRecover=true
+2018-09-10 09:40:08 INFO main - flushCommitLogLeastPages=4
+2018-09-10 09:40:08 INFO main - commitCommitLogLeastPages=4
+2018-09-10 09:40:08 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2018-09-10 09:40:08 INFO main - flushConsumeQueueLeastPages=2
+2018-09-10 09:40:08 INFO main - flushCommitLogThoroughInterval=10000
+2018-09-10 09:40:08 INFO main - commitCommitLogThoroughInterval=200
+2018-09-10 09:40:08 INFO main - flushConsumeQueueThoroughInterval=60000
+2018-09-10 09:40:08 INFO main - maxTransferBytesOnMessageInMemory=262144
+2018-09-10 09:40:08 INFO main - maxTransferCountOnMessageInMemory=32
+2018-09-10 09:40:08 INFO main - maxTransferBytesOnMessageInDisk=65536
+2018-09-10 09:40:08 INFO main - maxTransferCountOnMessageInDisk=8
+2018-09-10 09:40:08 INFO main - accessMessageInMemoryMaxRatio=40
+2018-09-10 09:40:08 INFO main - messageIndexEnable=true
+2018-09-10 09:40:08 INFO main - maxHashSlotNum=5000000
+2018-09-10 09:40:08 INFO main - maxIndexNum=20000000
+2018-09-10 09:40:08 INFO main - maxMsgsNumBatch=64
+2018-09-10 09:40:08 INFO main - messageIndexSafe=false
+2018-09-10 09:40:08 INFO main - haListenPort=10912
+2018-09-10 09:40:08 INFO main - haSendHeartbeatInterval=5000
+2018-09-10 09:40:08 INFO main - haHousekeepingInterval=20000
+2018-09-10 09:40:08 INFO main - haTransferBatchSize=32768
+2018-09-10 09:40:08 INFO main - haMasterAddress=
+2018-09-10 09:40:08 INFO main - haSlaveFallbehindMax=268435456
+2018-09-10 09:40:08 INFO main - brokerRole=ASYNC_MASTER
+2018-09-10 09:40:08 INFO main - flushDiskType=ASYNC_FLUSH
+2018-09-10 09:40:08 INFO main - syncFlushTimeout=5000
+2018-09-10 09:40:08 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2018-09-10 09:40:08 INFO main - flushDelayOffsetInterval=10000
+2018-09-10 09:40:08 INFO main - cleanFileForciblyEnable=true
+2018-09-10 09:40:08 INFO main - warmMapedFileEnable=false
+2018-09-10 09:40:08 INFO main - offsetCheckInSlave=false
+2018-09-10 09:40:08 INFO main - debugLockEnable=false
+2018-09-10 09:40:08 INFO main - duplicationEnable=false
+2018-09-10 09:40:08 INFO main - diskFallRecorded=true
+2018-09-10 09:40:08 INFO main - osPageCacheBusyTimeOutMills=1000
+2018-09-10 09:40:08 INFO main - defaultQueryMaxNum=32
+2018-09-10 09:40:08 INFO main - transientStorePoolEnable=false
+2018-09-10 09:40:08 INFO main - transientStorePoolSize=5
+2018-09-10 09:40:08 INFO main - fastFailIfNoBufferInStorePool=false
+2018-09-10 09:40:09 INFO main - Set user specified name server address: namesrv:9876
+2018-09-10 09:40:09 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2018-09-10 09:40:09 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2018-09-10 09:40:09 INFO FileWatchService - FileWatchService service started
+2018-09-10 09:40:09 INFO PullRequestHoldService - PullRequestHoldService service started
+2018-09-10 09:40:09 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:40:09 INFO main - Start transaction service!
+2018-09-10 09:40:09 INFO main - The broker[481b34555c8a, 172.18.0.3:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2018-09-10 09:40:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:40:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:40:19 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:40:49 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:41:09 INFO TransactionalMessageCheckService - create new topic TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 09:41:09 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:41:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:41:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:41:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:41:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:42:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:42:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:42:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:42:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:43:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:43:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:43:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:43:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:44:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:44:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:44:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:44:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:45:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:45:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:45:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:45:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:46:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:46:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:46:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:46:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:47:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:47:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:47:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:47:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:48:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:48:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:48:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:48:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:49:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:49:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:49:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:49:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:50:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:50:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:50:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:50:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:51:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:51:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:51:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:51:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:52:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:52:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:52:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:52:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:53:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:53:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:53:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:53:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:54:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:54:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:54:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:54:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:55:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:55:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:55:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:55:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:56:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:56:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:56:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:56:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:57:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:57:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:57:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:57:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 09:58:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:58:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:58:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 09:58:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 09:59:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 09:59:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 09:59:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 09:59:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:00:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:00:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:00:19 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:00:49 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 10:01:19 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:01:19 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:01:19 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:01:49 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:12:40 INFO main - rocketmqHome=/opt/rocketmq-4.3.0
+2018-09-10 10:12:40 INFO main - namesrvAddr=namesrv:9876
+2018-09-10 10:12:40 INFO main - brokerIP1=172.18.0.3
+2018-09-10 10:12:40 INFO main - brokerIP2=172.18.0.3
+2018-09-10 10:12:40 INFO main - brokerName=481b34555c8a
+2018-09-10 10:12:40 INFO main - brokerClusterName=DefaultCluster
+2018-09-10 10:12:40 INFO main - brokerId=0
+2018-09-10 10:12:40 INFO main - brokerPermission=6
+2018-09-10 10:12:40 INFO main - defaultTopicQueueNums=8
+2018-09-10 10:12:40 INFO main - autoCreateTopicEnable=true
+2018-09-10 10:12:40 INFO main - clusterTopicEnable=true
+2018-09-10 10:12:40 INFO main - brokerTopicEnable=true
+2018-09-10 10:12:40 INFO main - autoCreateSubscriptionGroup=true
+2018-09-10 10:12:40 INFO main - messageStorePlugIn=
+2018-09-10 10:12:40 INFO main - sendMessageThreadPoolNums=1
+2018-09-10 10:12:40 INFO main - pullMessageThreadPoolNums=20
+2018-09-10 10:12:40 INFO main - queryMessageThreadPoolNums=10
+2018-09-10 10:12:40 INFO main - adminBrokerThreadPoolNums=16
+2018-09-10 10:12:40 INFO main - clientManageThreadPoolNums=32
+2018-09-10 10:12:40 INFO main - consumerManageThreadPoolNums=32
+2018-09-10 10:12:40 INFO main - heartbeatThreadPoolNums=2
+2018-09-10 10:12:40 INFO main - flushConsumerOffsetInterval=5000
+2018-09-10 10:12:40 INFO main - flushConsumerOffsetHistoryInterval=60000
+2018-09-10 10:12:40 INFO main - rejectTransactionMessage=false
+2018-09-10 10:12:40 INFO main - fetchNamesrvAddrByAddressServer=false
+2018-09-10 10:12:40 INFO main - sendThreadPoolQueueCapacity=10000
+2018-09-10 10:12:40 INFO main - pullThreadPoolQueueCapacity=100000
+2018-09-10 10:12:40 INFO main - queryThreadPoolQueueCapacity=20000
+2018-09-10 10:12:40 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2018-09-10 10:12:40 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2018-09-10 10:12:40 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2018-09-10 10:12:40 INFO main - filterServerNums=0
+2018-09-10 10:12:40 INFO main - longPollingEnable=true
+2018-09-10 10:12:40 INFO main - shortPollingTimeMills=1000
+2018-09-10 10:12:40 INFO main - notifyConsumerIdsChangedEnable=true
+2018-09-10 10:12:40 INFO main - highSpeedMode=false
+2018-09-10 10:12:40 INFO main - commercialEnable=true
+2018-09-10 10:12:40 INFO main - commercialTimerCount=1
+2018-09-10 10:12:40 INFO main - commercialTransCount=1
+2018-09-10 10:12:40 INFO main - commercialBigCount=1
+2018-09-10 10:12:40 INFO main - commercialBaseCount=1
+2018-09-10 10:12:40 INFO main - transferMsgByHeap=true
+2018-09-10 10:12:40 INFO main - maxDelayTime=40
+2018-09-10 10:12:40 INFO main - regionId=DefaultRegion
+2018-09-10 10:12:40 INFO main - registerBrokerTimeoutMills=6000
+2018-09-10 10:12:40 INFO main - slaveReadEnable=false
+2018-09-10 10:12:40 INFO main - disableConsumeIfConsumerReadSlowly=false
+2018-09-10 10:12:40 INFO main - consumerFallbehindThreshold=17179869184
+2018-09-10 10:12:40 INFO main - brokerFastFailureEnable=true
+2018-09-10 10:12:40 INFO main - waitTimeMillsInSendQueue=200
+2018-09-10 10:12:40 INFO main - waitTimeMillsInPullQueue=5000
+2018-09-10 10:12:40 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2018-09-10 10:12:40 INFO main - startAcceptSendRequestTimeStamp=0
+2018-09-10 10:12:40 INFO main - traceOn=true
+2018-09-10 10:12:40 INFO main - enableCalcFilterBitMap=false
+2018-09-10 10:12:40 INFO main - expectConsumerNumUseFilter=32
+2018-09-10 10:12:40 INFO main - maxErrorRateOfBloomFilter=20
+2018-09-10 10:12:40 INFO main - filterDataCleanTimeSpan=86400000
+2018-09-10 10:12:40 INFO main - filterSupportRetry=false
+2018-09-10 10:12:40 INFO main - enablePropertyFilter=false
+2018-09-10 10:12:40 INFO main - compressedRegister=false
+2018-09-10 10:12:40 INFO main - forceRegister=true
+2018-09-10 10:12:40 INFO main - registerNameServerPeriod=30000
+2018-09-10 10:12:40 INFO main - transactionTimeOut=3000
+2018-09-10 10:12:40 INFO main - transactionCheckMax=5
+2018-09-10 10:12:40 INFO main - transactionCheckInterval=60000
+2018-09-10 10:12:40 INFO main - listenPort=10911
+2018-09-10 10:12:40 INFO main - serverWorkerThreads=8
+2018-09-10 10:12:40 INFO main - serverCallbackExecutorThreads=0
+2018-09-10 10:12:40 INFO main - serverSelectorThreads=3
+2018-09-10 10:12:40 INFO main - serverOnewaySemaphoreValue=256
+2018-09-10 10:12:40 INFO main - serverAsyncSemaphoreValue=64
+2018-09-10 10:12:40 INFO main - serverChannelMaxIdleTimeSeconds=120
+2018-09-10 10:12:40 INFO main - serverSocketSndBufSize=131072
+2018-09-10 10:12:40 INFO main - serverSocketRcvBufSize=131072
+2018-09-10 10:12:40 INFO main - serverPooledByteBufAllocatorEnable=true
+2018-09-10 10:12:40 INFO main - useEpollNativeSelector=false
+2018-09-10 10:12:40 INFO main - clientWorkerThreads=4
+2018-09-10 10:12:40 INFO main - clientCallbackExecutorThreads=2
+2018-09-10 10:12:40 INFO main - clientOnewaySemaphoreValue=65535
+2018-09-10 10:12:40 INFO main - clientAsyncSemaphoreValue=65535
+2018-09-10 10:12:40 INFO main - connectTimeoutMillis=3000
+2018-09-10 10:12:40 INFO main - channelNotActiveInterval=60000
+2018-09-10 10:12:40 INFO main - clientChannelMaxIdleTimeSeconds=120
+2018-09-10 10:12:40 INFO main - clientSocketSndBufSize=131072
+2018-09-10 10:12:40 INFO main - clientSocketRcvBufSize=131072
+2018-09-10 10:12:40 INFO main - clientPooledByteBufAllocatorEnable=false
+2018-09-10 10:12:40 INFO main - clientCloseSocketIfTimeout=false
+2018-09-10 10:12:40 INFO main - useTLS=false
+2018-09-10 10:12:40 INFO main - storePathRootDir=/opt/store
+2018-09-10 10:12:40 INFO main - storePathCommitLog=/opt/store/commitlog
+2018-09-10 10:12:40 INFO main - mapedFileSizeCommitLog=1073741824
+2018-09-10 10:12:40 INFO main - mapedFileSizeConsumeQueue=6000000
+2018-09-10 10:12:40 INFO main - enableConsumeQueueExt=false
+2018-09-10 10:12:40 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2018-09-10 10:12:40 INFO main - bitMapLengthConsumeQueueExt=64
+2018-09-10 10:12:40 INFO main - flushIntervalCommitLog=500
+2018-09-10 10:12:40 INFO main - commitIntervalCommitLog=200
+2018-09-10 10:12:40 INFO main - useReentrantLockWhenPutMessage=false
+2018-09-10 10:12:40 INFO main - flushCommitLogTimed=false
+2018-09-10 10:12:40 INFO main - flushIntervalConsumeQueue=1000
+2018-09-10 10:12:40 INFO main - cleanResourceInterval=10000
+2018-09-10 10:12:40 INFO main - deleteCommitLogFilesInterval=100
+2018-09-10 10:12:40 INFO main - deleteConsumeQueueFilesInterval=100
+2018-09-10 10:12:40 INFO main - destroyMapedFileIntervalForcibly=120000
+2018-09-10 10:12:40 INFO main - redeleteHangedFileInterval=120000
+2018-09-10 10:12:40 INFO main - deleteWhen=04
+2018-09-10 10:12:40 INFO main - diskMaxUsedSpaceRatio=75
+2018-09-10 10:12:40 INFO main - fileReservedTime=72
+2018-09-10 10:12:40 INFO main - putMsgIndexHightWater=600000
+2018-09-10 10:12:40 INFO main - maxMessageSize=4194304
+2018-09-10 10:12:40 INFO main - checkCRCOnRecover=true
+2018-09-10 10:12:40 INFO main - flushCommitLogLeastPages=4
+2018-09-10 10:12:40 INFO main - commitCommitLogLeastPages=4
+2018-09-10 10:12:40 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2018-09-10 10:12:40 INFO main - flushConsumeQueueLeastPages=2
+2018-09-10 10:12:40 INFO main - flushCommitLogThoroughInterval=10000
+2018-09-10 10:12:40 INFO main - commitCommitLogThoroughInterval=200
+2018-09-10 10:12:40 INFO main - flushConsumeQueueThoroughInterval=60000
+2018-09-10 10:12:40 INFO main - maxTransferBytesOnMessageInMemory=262144
+2018-09-10 10:12:40 INFO main - maxTransferCountOnMessageInMemory=32
+2018-09-10 10:12:40 INFO main - maxTransferBytesOnMessageInDisk=65536
+2018-09-10 10:12:40 INFO main - maxTransferCountOnMessageInDisk=8
+2018-09-10 10:12:40 INFO main - accessMessageInMemoryMaxRatio=40
+2018-09-10 10:12:40 INFO main - messageIndexEnable=true
+2018-09-10 10:12:40 INFO main - maxHashSlotNum=5000000
+2018-09-10 10:12:40 INFO main - maxIndexNum=20000000
+2018-09-10 10:12:40 INFO main - maxMsgsNumBatch=64
+2018-09-10 10:12:40 INFO main - messageIndexSafe=false
+2018-09-10 10:12:40 INFO main - haListenPort=10912
+2018-09-10 10:12:40 INFO main - haSendHeartbeatInterval=5000
+2018-09-10 10:12:40 INFO main - haHousekeepingInterval=20000
+2018-09-10 10:12:40 INFO main - haTransferBatchSize=32768
+2018-09-10 10:12:40 INFO main - haMasterAddress=
+2018-09-10 10:12:40 INFO main - haSlaveFallbehindMax=268435456
+2018-09-10 10:12:40 INFO main - brokerRole=ASYNC_MASTER
+2018-09-10 10:12:40 INFO main - flushDiskType=ASYNC_FLUSH
+2018-09-10 10:12:40 INFO main - syncFlushTimeout=5000
+2018-09-10 10:12:40 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2018-09-10 10:12:40 INFO main - flushDelayOffsetInterval=10000
+2018-09-10 10:12:40 INFO main - cleanFileForciblyEnable=true
+2018-09-10 10:12:40 INFO main - warmMapedFileEnable=false
+2018-09-10 10:12:40 INFO main - offsetCheckInSlave=false
+2018-09-10 10:12:40 INFO main - debugLockEnable=false
+2018-09-10 10:12:40 INFO main - duplicationEnable=false
+2018-09-10 10:12:40 INFO main - diskFallRecorded=true
+2018-09-10 10:12:40 INFO main - osPageCacheBusyTimeOutMills=1000
+2018-09-10 10:12:40 INFO main - defaultQueryMaxNum=32
+2018-09-10 10:12:40 INFO main - transientStorePoolEnable=false
+2018-09-10 10:12:40 INFO main - transientStorePoolSize=5
+2018-09-10 10:12:40 INFO main - fastFailIfNoBufferInStorePool=false
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=AUTO_CREATE_TOPIC_KEY, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=481b34555c8a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 10:12:41 INFO main - load /opt/store/config/topics.json OK
+2018-09-10 10:12:41 INFO main - load /opt/store/config/consumerOffset.json OK
+2018-09-10 10:12:41 INFO main - load /opt/store/config/consumerFilter.json OK
+2018-09-10 10:12:41 INFO main - load /opt/store/config/delayOffset.json OK
+2018-09-10 10:12:41 INFO main - Set user specified name server address: namesrv:9876
+2018-09-10 10:12:41 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2018-09-10 10:12:41 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2018-09-10 10:12:41 INFO FileWatchService - FileWatchService service started
+2018-09-10 10:12:41 INFO PullRequestHoldService - PullRequestHoldService service started
+2018-09-10 10:12:41 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:12:41 INFO main - Start transaction service!
+2018-09-10 10:12:41 INFO main - The broker[481b34555c8a, 172.18.0.3:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2018-09-10 10:12:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:12:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:12:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:13:21 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:13:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:13:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:13:51 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 10:14:21 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:14:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:14:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:14:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:15:21 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:15:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:15:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:15:51 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 10:16:21 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:16:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:16:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:16:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:17:21 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:17:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:17:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:17:51 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 10:18:21 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:18:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:18:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:18:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:19:21 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:19:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:19:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:19:51 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 10:20:21 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:20:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:20:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:20:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:21:21 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:21:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:21:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:21:51 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 10:22:21 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 10:22:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:22:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:22:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 10:23:21 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 10:23:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 10:23:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 10:23:51 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:49:10 INFO main - rocketmqHome=/opt/rocketmq-4.3.0
+2018-09-10 11:49:10 INFO main - namesrvAddr=namesrv:9876
+2018-09-10 11:49:10 INFO main - brokerIP1=172.18.0.3
+2018-09-10 11:49:10 INFO main - brokerIP2=172.18.0.3
+2018-09-10 11:49:10 INFO main - brokerName=481b34555c8a
+2018-09-10 11:49:10 INFO main - brokerClusterName=DefaultCluster
+2018-09-10 11:49:10 INFO main - brokerId=0
+2018-09-10 11:49:10 INFO main - brokerPermission=6
+2018-09-10 11:49:10 INFO main - defaultTopicQueueNums=8
+2018-09-10 11:49:10 INFO main - autoCreateTopicEnable=true
+2018-09-10 11:49:10 INFO main - clusterTopicEnable=true
+2018-09-10 11:49:10 INFO main - brokerTopicEnable=true
+2018-09-10 11:49:10 INFO main - autoCreateSubscriptionGroup=true
+2018-09-10 11:49:10 INFO main - messageStorePlugIn=
+2018-09-10 11:49:10 INFO main - sendMessageThreadPoolNums=1
+2018-09-10 11:49:10 INFO main - pullMessageThreadPoolNums=20
+2018-09-10 11:49:10 INFO main - queryMessageThreadPoolNums=10
+2018-09-10 11:49:10 INFO main - adminBrokerThreadPoolNums=16
+2018-09-10 11:49:10 INFO main - clientManageThreadPoolNums=32
+2018-09-10 11:49:10 INFO main - consumerManageThreadPoolNums=32
+2018-09-10 11:49:10 INFO main - heartbeatThreadPoolNums=2
+2018-09-10 11:49:10 INFO main - flushConsumerOffsetInterval=5000
+2018-09-10 11:49:10 INFO main - flushConsumerOffsetHistoryInterval=60000
+2018-09-10 11:49:10 INFO main - rejectTransactionMessage=false
+2018-09-10 11:49:10 INFO main - fetchNamesrvAddrByAddressServer=false
+2018-09-10 11:49:10 INFO main - sendThreadPoolQueueCapacity=10000
+2018-09-10 11:49:10 INFO main - pullThreadPoolQueueCapacity=100000
+2018-09-10 11:49:10 INFO main - queryThreadPoolQueueCapacity=20000
+2018-09-10 11:49:10 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2018-09-10 11:49:10 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2018-09-10 11:49:10 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2018-09-10 11:49:10 INFO main - filterServerNums=0
+2018-09-10 11:49:10 INFO main - longPollingEnable=true
+2018-09-10 11:49:10 INFO main - shortPollingTimeMills=1000
+2018-09-10 11:49:10 INFO main - notifyConsumerIdsChangedEnable=true
+2018-09-10 11:49:10 INFO main - highSpeedMode=false
+2018-09-10 11:49:10 INFO main - commercialEnable=true
+2018-09-10 11:49:10 INFO main - commercialTimerCount=1
+2018-09-10 11:49:10 INFO main - commercialTransCount=1
+2018-09-10 11:49:10 INFO main - commercialBigCount=1
+2018-09-10 11:49:10 INFO main - commercialBaseCount=1
+2018-09-10 11:49:10 INFO main - transferMsgByHeap=true
+2018-09-10 11:49:10 INFO main - maxDelayTime=40
+2018-09-10 11:49:10 INFO main - regionId=DefaultRegion
+2018-09-10 11:49:10 INFO main - registerBrokerTimeoutMills=6000
+2018-09-10 11:49:10 INFO main - slaveReadEnable=false
+2018-09-10 11:49:10 INFO main - disableConsumeIfConsumerReadSlowly=false
+2018-09-10 11:49:10 INFO main - consumerFallbehindThreshold=17179869184
+2018-09-10 11:49:10 INFO main - brokerFastFailureEnable=true
+2018-09-10 11:49:10 INFO main - waitTimeMillsInSendQueue=200
+2018-09-10 11:49:10 INFO main - waitTimeMillsInPullQueue=5000
+2018-09-10 11:49:10 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2018-09-10 11:49:10 INFO main - startAcceptSendRequestTimeStamp=0
+2018-09-10 11:49:10 INFO main - traceOn=true
+2018-09-10 11:49:10 INFO main - enableCalcFilterBitMap=false
+2018-09-10 11:49:10 INFO main - expectConsumerNumUseFilter=32
+2018-09-10 11:49:10 INFO main - maxErrorRateOfBloomFilter=20
+2018-09-10 11:49:10 INFO main - filterDataCleanTimeSpan=86400000
+2018-09-10 11:49:10 INFO main - filterSupportRetry=false
+2018-09-10 11:49:10 INFO main - enablePropertyFilter=false
+2018-09-10 11:49:10 INFO main - compressedRegister=false
+2018-09-10 11:49:10 INFO main - forceRegister=true
+2018-09-10 11:49:10 INFO main - registerNameServerPeriod=30000
+2018-09-10 11:49:10 INFO main - transactionTimeOut=3000
+2018-09-10 11:49:10 INFO main - transactionCheckMax=5
+2018-09-10 11:49:10 INFO main - transactionCheckInterval=60000
+2018-09-10 11:49:10 INFO main - listenPort=10911
+2018-09-10 11:49:10 INFO main - serverWorkerThreads=8
+2018-09-10 11:49:10 INFO main - serverCallbackExecutorThreads=0
+2018-09-10 11:49:10 INFO main - serverSelectorThreads=3
+2018-09-10 11:49:10 INFO main - serverOnewaySemaphoreValue=256
+2018-09-10 11:49:10 INFO main - serverAsyncSemaphoreValue=64
+2018-09-10 11:49:10 INFO main - serverChannelMaxIdleTimeSeconds=120
+2018-09-10 11:49:10 INFO main - serverSocketSndBufSize=131072
+2018-09-10 11:49:10 INFO main - serverSocketRcvBufSize=131072
+2018-09-10 11:49:10 INFO main - serverPooledByteBufAllocatorEnable=true
+2018-09-10 11:49:10 INFO main - useEpollNativeSelector=false
+2018-09-10 11:49:10 INFO main - clientWorkerThreads=4
+2018-09-10 11:49:10 INFO main - clientCallbackExecutorThreads=2
+2018-09-10 11:49:10 INFO main - clientOnewaySemaphoreValue=65535
+2018-09-10 11:49:10 INFO main - clientAsyncSemaphoreValue=65535
+2018-09-10 11:49:10 INFO main - connectTimeoutMillis=3000
+2018-09-10 11:49:10 INFO main - channelNotActiveInterval=60000
+2018-09-10 11:49:10 INFO main - clientChannelMaxIdleTimeSeconds=120
+2018-09-10 11:49:10 INFO main - clientSocketSndBufSize=131072
+2018-09-10 11:49:10 INFO main - clientSocketRcvBufSize=131072
+2018-09-10 11:49:10 INFO main - clientPooledByteBufAllocatorEnable=false
+2018-09-10 11:49:10 INFO main - clientCloseSocketIfTimeout=false
+2018-09-10 11:49:10 INFO main - useTLS=false
+2018-09-10 11:49:10 INFO main - storePathRootDir=/opt/store
+2018-09-10 11:49:10 INFO main - storePathCommitLog=/opt/store/commitlog
+2018-09-10 11:49:10 INFO main - mapedFileSizeCommitLog=1073741824
+2018-09-10 11:49:10 INFO main - mapedFileSizeConsumeQueue=6000000
+2018-09-10 11:49:10 INFO main - enableConsumeQueueExt=false
+2018-09-10 11:49:10 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2018-09-10 11:49:10 INFO main - bitMapLengthConsumeQueueExt=64
+2018-09-10 11:49:10 INFO main - flushIntervalCommitLog=500
+2018-09-10 11:49:10 INFO main - commitIntervalCommitLog=200
+2018-09-10 11:49:10 INFO main - useReentrantLockWhenPutMessage=false
+2018-09-10 11:49:10 INFO main - flushCommitLogTimed=false
+2018-09-10 11:49:10 INFO main - flushIntervalConsumeQueue=1000
+2018-09-10 11:49:10 INFO main - cleanResourceInterval=10000
+2018-09-10 11:49:10 INFO main - deleteCommitLogFilesInterval=100
+2018-09-10 11:49:10 INFO main - deleteConsumeQueueFilesInterval=100
+2018-09-10 11:49:10 INFO main - destroyMapedFileIntervalForcibly=120000
+2018-09-10 11:49:10 INFO main - redeleteHangedFileInterval=120000
+2018-09-10 11:49:10 INFO main - deleteWhen=04
+2018-09-10 11:49:10 INFO main - diskMaxUsedSpaceRatio=75
+2018-09-10 11:49:10 INFO main - fileReservedTime=72
+2018-09-10 11:49:10 INFO main - putMsgIndexHightWater=600000
+2018-09-10 11:49:10 INFO main - maxMessageSize=4194304
+2018-09-10 11:49:10 INFO main - checkCRCOnRecover=true
+2018-09-10 11:49:10 INFO main - flushCommitLogLeastPages=4
+2018-09-10 11:49:10 INFO main - commitCommitLogLeastPages=4
+2018-09-10 11:49:10 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2018-09-10 11:49:10 INFO main - flushConsumeQueueLeastPages=2
+2018-09-10 11:49:10 INFO main - flushCommitLogThoroughInterval=10000
+2018-09-10 11:49:10 INFO main - commitCommitLogThoroughInterval=200
+2018-09-10 11:49:10 INFO main - flushConsumeQueueThoroughInterval=60000
+2018-09-10 11:49:10 INFO main - maxTransferBytesOnMessageInMemory=262144
+2018-09-10 11:49:10 INFO main - maxTransferCountOnMessageInMemory=32
+2018-09-10 11:49:10 INFO main - maxTransferBytesOnMessageInDisk=65536
+2018-09-10 11:49:10 INFO main - maxTransferCountOnMessageInDisk=8
+2018-09-10 11:49:10 INFO main - accessMessageInMemoryMaxRatio=40
+2018-09-10 11:49:10 INFO main - messageIndexEnable=true
+2018-09-10 11:49:10 INFO main - maxHashSlotNum=5000000
+2018-09-10 11:49:10 INFO main - maxIndexNum=20000000
+2018-09-10 11:49:10 INFO main - maxMsgsNumBatch=64
+2018-09-10 11:49:10 INFO main - messageIndexSafe=false
+2018-09-10 11:49:10 INFO main - haListenPort=10912
+2018-09-10 11:49:10 INFO main - haSendHeartbeatInterval=5000
+2018-09-10 11:49:10 INFO main - haHousekeepingInterval=20000
+2018-09-10 11:49:10 INFO main - haTransferBatchSize=32768
+2018-09-10 11:49:10 INFO main - haMasterAddress=
+2018-09-10 11:49:10 INFO main - haSlaveFallbehindMax=268435456
+2018-09-10 11:49:10 INFO main - brokerRole=ASYNC_MASTER
+2018-09-10 11:49:10 INFO main - flushDiskType=ASYNC_FLUSH
+2018-09-10 11:49:10 INFO main - syncFlushTimeout=5000
+2018-09-10 11:49:10 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2018-09-10 11:49:10 INFO main - flushDelayOffsetInterval=10000
+2018-09-10 11:49:10 INFO main - cleanFileForciblyEnable=true
+2018-09-10 11:49:10 INFO main - warmMapedFileEnable=false
+2018-09-10 11:49:10 INFO main - offsetCheckInSlave=false
+2018-09-10 11:49:10 INFO main - debugLockEnable=false
+2018-09-10 11:49:10 INFO main - duplicationEnable=false
+2018-09-10 11:49:10 INFO main - diskFallRecorded=true
+2018-09-10 11:49:10 INFO main - osPageCacheBusyTimeOutMills=1000
+2018-09-10 11:49:10 INFO main - defaultQueryMaxNum=32
+2018-09-10 11:49:10 INFO main - transientStorePoolEnable=false
+2018-09-10 11:49:10 INFO main - transientStorePoolSize=5
+2018-09-10 11:49:10 INFO main - fastFailIfNoBufferInStorePool=false
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=AUTO_CREATE_TOPIC_KEY, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=481b34555c8a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:11 INFO main - load /opt/store/config/topics.json OK
+2018-09-10 11:49:11 INFO main - load /opt/store/config/consumerOffset.json OK
+2018-09-10 11:49:11 INFO main - load /opt/store/config/consumerFilter.json OK
+2018-09-10 11:49:11 INFO main - load /opt/store/config/delayOffset.json OK
+2018-09-10 11:49:12 INFO main - Set user specified name server address: namesrv:9876
+2018-09-10 11:49:12 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2018-09-10 11:49:12 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2018-09-10 11:49:12 INFO FileWatchService - FileWatchService service started
+2018-09-10 11:49:12 INFO PullRequestHoldService - PullRequestHoldService service started
+2018-09-10 11:49:12 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 11:49:12 INFO main - Start transaction service!
+2018-09-10 11:49:12 INFO main - The broker[481b34555c8a, 172.18.0.3:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - auto create a subscription group, SubscriptionGroupConfig [groupName=example_group_name, consumeEnable=true, consumeFromMinEnable=true, consumeBroadcastEnable=true, retryQueueNums=1, retryMaxTimes=16, brokerId=0, whichBrokerWhenConsumeSlowly=1, notifyConsumerIdsChangedEnable=true]
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - create new topic TopicConfig [topicName=%RETRY%example_group_name, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2018-09-10 11:49:14 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - new consumer connected, group: example_group_name CONSUME_PASSIVELY CLUSTERING channel: ClientChannelInfo [channel=[id: 0xd69d7a8a, L:/172.18.0.3:10911 - R:/172.18.0.1:60466], clientId=172.17.133.225@56088, language=JAVA, version=273, lastUpdateTimestamp=1536551354308]
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - subscription changed, add new topic, group: example_group_name SubscriptionData [classFilterMode=false, topic=TopicTest, subString=*, tagsSet=[], codeSet=[], subVersion=1536549576589, expressionType=TAG]
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - subscription changed, add new topic, group: example_group_name SubscriptionData [classFilterMode=false, topic=%RETRY%example_group_name, subString=*, tagsSet=[], codeSet=[], subVersion=1536549343553, expressionType=TAG]
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - registerConsumer info changed ConsumerData [groupName=example_group_name, consumeType=CONSUME_PASSIVELY, messageModel=CLUSTERING, consumeFromWhere=CONSUME_FROM_FIRST_OFFSET, unitMode=false, subscriptionDataSet=[SubscriptionData [classFilterMode=false, topic=TopicTest, subString=*, tagsSet=[], codeSet=[], subVersion=1536549576589, expressionType=TAG], SubscriptionData [classFilterMode=false, topic=%RETRY%example_group_name, subString=*, tagsSet=[], codeSet=[], subVersion=1536549343553, expressionType=TAG]]] 172.18.0.1:60466
+2018-09-10 11:49:14 INFO HeartbeatThread_1 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xd69d7a8a, L:/172.18.0.3:10911 - R:/172.18.0.1:60466], clientId=172.17.133.225@56088, language=JAVA, version=273, lastUpdateTimestamp=1536551354365]
+2018-09-10 11:49:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:49:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:49:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 11:49:41 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:42 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:43 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:44 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:44 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:45 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:46 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:47 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:47 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:48 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:49 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:50 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:50 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:51 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:52 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:49:53 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:53 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:54 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:55 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:56 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:56 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:57 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:58 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:59 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:49:59 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:00 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:01 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:02 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:02 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:03 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:04 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:05 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:05 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:06 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:07 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:08 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:08 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:09 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:10 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:11 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:11 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:12 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:13 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:14 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:14 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:15 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:16 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:17 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:17 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:18 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:19 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:20 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:20 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:21 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:22 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:50:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:50:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 11:50:23 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:23 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:24 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:25 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:26 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:26 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:27 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:28 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:29 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:29 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:30 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:31 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:32 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:32 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:33 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:34 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:35 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:35 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:36 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:37 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:38 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:38 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:39 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:40 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:41 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:41 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:42 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:43 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:44 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:44 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:45 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:46 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:47 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:47 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:48 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:49 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:50 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:50 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:51 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:52 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:53 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 11:50:53 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:53 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:54 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:55 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:56 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:56 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:57 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:58 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:59 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:50:59 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:00 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:01 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:02 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:02 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:03 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:04 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:05 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:05 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:06 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:07 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:08 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:08 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:09 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:10 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:11 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:11 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:12 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:13 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:14 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:14 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:15 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:16 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:17 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:17 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:18 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:19 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:20 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:20 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:21 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:22 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:51:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:51:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 11:51:23 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:23 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:24 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:25 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:26 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:26 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:27 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:28 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:29 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:29 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:30 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:31 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:32 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:32 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:33 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:34 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:35 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:35 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:36 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:37 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:38 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:38 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:39 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:40 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:41 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:41 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:42 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:43 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:44 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:44 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:45 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:46 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:47 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:47 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:48 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:49 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:50 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:50 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:51 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:52 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:51:53 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:53 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:54 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:55 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:56 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:56 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:57 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:58 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:59 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:51:59 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:00 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:01 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:02 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:02 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:03 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:04 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:05 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:05 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:06 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:07 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:08 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:08 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:09 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:10 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:11 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:11 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:12 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:13 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:14 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:14 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:15 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:16 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:17 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:17 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:18 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:19 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:20 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:20 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:21 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:22 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:52:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:52:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 11:52:23 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:23 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:24 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:25 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:26 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:26 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:27 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:28 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:29 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:29 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:30 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:31 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:32 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:32 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:33 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:34 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:35 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:35 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:36 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:37 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:38 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:38 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:39 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:40 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:41 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:41 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:42 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:43 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:44 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:44 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:45 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:46 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:47 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:47 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:48 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:49 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:50 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:50 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:51 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:52 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:53 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 11:52:53 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:53 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:54 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:55 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:56 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:56 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:57 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:58 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:59 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:52:59 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:00 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:01 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:02 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:02 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:03 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:04 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:05 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:05 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:06 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:07 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:08 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:08 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:09 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:10 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:11 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:11 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:12 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:13 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:14 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:14 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:15 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:16 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:17 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:17 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:18 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:19 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:20 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:20 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:21 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:53:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:53:22 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 11:53:23 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:23 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:24 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:25 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:26 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:26 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:27 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:28 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:29 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:29 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:30 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:31 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:32 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:32 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:33 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:34 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:35 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:35 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:36 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:37 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:38 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:38 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:39 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:40 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:41 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:41 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:42 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:43 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:44 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:44 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:45 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:46 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:47 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:47 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:48 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:49 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:50 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:50 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:51 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:52 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:53:53 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:53 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:54 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:55 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:56 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:56 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:57 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:58 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:59 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:53:59 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:00 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:01 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:02 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:02 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:03 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:04 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:05 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:05 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:06 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:07 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:08 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:08 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:09 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:10 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:11 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:11 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:12 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:13 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:14 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:14 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:15 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:16 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:17 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:17 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:18 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:19 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:20 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:20 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:21 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:54:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:54:22 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 11:54:23 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:23 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:24 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:25 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:26 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:26 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:27 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:28 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:29 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:29 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:30 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:31 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:32 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:32 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:33 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:34 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:35 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:35 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:36 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:37 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:38 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:38 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:39 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:40 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:41 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:41 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:42 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:43 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:44 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:44 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:45 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:46 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:47 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:47 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:48 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:49 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:50 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:50 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:51 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:52 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:53 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 11:54:53 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:53 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:54 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:55 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:56 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:56 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:57 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:58 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:59 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:54:59 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:00 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:01 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:02 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:02 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:03 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:04 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:05 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:05 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:06 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:07 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:08 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:08 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:09 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:10 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:11 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:11 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:12 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:13 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:14 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:14 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:15 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:16 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:17 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:17 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:18 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:19 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:20 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:20 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:21 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:55:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:55:22 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 11:55:23 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:23 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:24 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:25 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:26 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:26 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:27 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:28 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:29 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:29 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:30 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:31 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:32 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:32 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:33 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:34 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:35 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:35 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:36 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:37 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:38 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:38 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:39 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:40 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:41 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:41 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:42 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:43 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:44 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:44 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:45 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:46 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:47 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:47 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:48 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:49 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:50 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:50 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:51 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:52 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:55:53 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:53 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:54 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:55 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:56 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:56 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:57 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:58 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:59 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:55:59 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:00 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:01 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:02 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:02 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:03 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:04 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:05 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:05 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:06 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:07 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:08 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:08 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:09 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:10 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:11 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:11 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:12 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:13 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:14 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:14 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:15 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:16 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:17 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:17 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:18 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:19 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:20 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:20 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:21 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:56:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:56:22 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 11:56:23 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:23 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:24 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:25 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:26 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:26 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:27 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:28 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:29 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:29 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:30 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:31 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:32 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:32 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:33 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:34 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:35 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:35 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:36 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:37 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:38 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:38 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:39 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:40 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:41 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:41 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:42 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:43 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:44 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:44 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:45 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:46 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:47 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:47 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:48 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:49 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:50 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:50 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:51 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:52 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:53 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 11:56:53 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:53 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:54 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:55 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:56 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:56 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:57 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:58 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:59 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:56:59 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:00 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:01 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:02 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:02 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:03 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:04 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:05 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:05 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:06 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:07 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:08 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:08 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:09 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:10 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:11 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:11 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:12 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:13 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:14 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:14 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:15 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:16 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:17 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:17 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:18 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:19 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:20 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:20 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:21 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:57:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:57:22 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 11:57:23 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:23 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:24 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:25 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:26 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:26 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:27 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:28 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:29 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:29 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:30 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:31 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:32 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:32 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:33 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:34 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:35 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:35 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:36 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:37 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:38 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:38 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:39 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:40 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:41 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:41 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:42 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:43 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:44 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:44 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:45 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:46 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:47 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:47 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:48 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:49 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:50 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:50 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:51 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:52 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:57:53 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:53 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:54 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:55 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:57 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:57 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:57 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:57:58 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:00 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:00 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:00 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:01 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:03 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:03 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:03 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:04 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:06 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:06 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:06 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:07 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:09 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:09 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:09 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:10 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:12 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:12 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:12 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:13 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:15 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:15 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:15 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:16 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:18 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:18 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:18 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:19 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:21 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:21 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:21 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:58:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:58:22 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 11:58:24 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:24 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:24 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:25 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:27 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:27 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:27 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:28 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:30 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:30 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:30 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:31 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:33 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:33 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:33 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:34 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:36 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:36 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:36 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:37 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:39 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:39 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:39 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:40 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:42 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:42 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:42 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:43 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:45 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:45 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:45 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:46 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:48 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:48 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:48 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:50 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:51 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:51 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:51 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:53 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 11:58:53 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:54 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:54 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:54 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:56 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:57 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:57 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:57 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:58:59 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:00 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:00 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:00 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:02 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:03 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:03 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:03 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:05 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:06 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:06 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:06 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:08 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:09 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:09 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:10 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:11 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:12 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:12 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:13 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:14 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:15 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:15 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:16 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:17 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:18 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:18 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:19 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:20 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:21 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:21 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:22 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 11:59:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 11:59:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 11:59:23 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:24 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:24 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:25 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:26 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:27 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:27 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:28 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:29 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:30 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:30 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:31 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:32 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:33 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:33 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:34 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:35 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:36 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:36 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:37 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:38 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:39 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:39 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:40 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:41 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:42 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:42 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:43 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:44 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:45 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:45 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:46 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:47 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:48 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:48 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:49 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:50 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:51 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:51 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:52 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 11:59:53 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:54 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:54 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:55 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:56 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:57 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:57 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:58 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 11:59:59 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:00 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:00 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:01 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:02 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:03 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:03 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:04 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:05 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:06 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:06 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:07 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:08 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:09 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:09 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:10 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:11 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:12 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:12 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:13 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:14 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:15 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:15 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:16 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:17 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:18 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:18 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:19 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:20 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:21 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:21 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:22 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 12:00:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 12:00:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 12:00:23 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:24 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:24 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:25 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:26 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:27 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:27 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:28 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:29 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:30 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:30 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:31 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:32 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:33 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:33 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:34 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:35 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:36 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:36 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:37 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:38 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:39 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:39 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:40 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:41 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:42 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:42 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:43 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:44 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:45 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:45 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:46 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:47 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:48 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:48 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:49 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:50 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:51 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:51 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:52 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:53 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2018-09-10 12:00:53 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:54 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:54 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:55 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:56 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:57 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:57 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:58 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:00:59 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:00 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:00 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:01 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:02 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:03 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:03 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:04 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:05 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:06 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:06 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:07 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:08 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:09 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:09 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:10 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:11 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:12 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:12 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:13 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:14 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:15 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:15 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:16 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:17 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:18 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:18 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:19 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:20 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:21 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:21 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:22 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 12:01:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 12:01:23 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2018-09-10 12:01:23 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:24 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:24 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:25 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:26 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:27 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:27 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:28 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:29 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:30 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:30 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:31 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:32 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:33 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:33 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:34 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:35 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:36 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:36 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:37 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:38 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:39 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:39 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:40 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:41 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:42 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:42 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:43 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:44 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:45 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:45 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:46 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:47 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:48 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:48 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:49 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:50 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:51 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:51 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:52 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:53 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2018-09-10 12:01:53 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:54 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:54 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:55 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:56 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:57 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:57 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:58 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:01:59 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:00 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:00 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:01 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:02 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:03 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:03 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:04 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:05 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:06 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:06 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:07 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:08 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:09 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:09 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:10 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:11 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:12 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:12 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:13 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:14 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:15 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:15 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:16 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:17 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:18 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:18 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:19 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:20 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:21 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:21 ERROR PullMessageThread_10 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:22 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:22 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2018-09-10 12:02:22 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2018-09-10 12:02:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2018-09-10 12:02:23 ERROR PullMessageThread_11 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:24 ERROR PullMessageThread_13 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:24 ERROR PullMessageThread_14 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:25 ERROR PullMessageThread_16 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:26 ERROR PullMessageThread_15 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:27 ERROR PullMessageThread_17 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:27 ERROR PullMessageThread_18 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:28 ERROR PullMessageThread_19 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:29 ERROR PullMessageThread_20 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:30 ERROR PullMessageThread_2 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:30 ERROR PullMessageThread_1 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:31 ERROR PullMessageThread_3 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:32 ERROR PullMessageThread_4 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:33 ERROR PullMessageThread_6 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:33 ERROR PullMessageThread_5 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:34 ERROR PullMessageThread_7 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:35 ERROR PullMessageThread_8 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:36 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:36 ERROR PullMessageThread_9 - the topic TopicTest not exist, consumer: 172.18.0.1:60466
+2018-09-10 12:02:37 ERROR PullMessageThread_12 - the topic TopicTest not exist, consumer: 172.18.0.1:60466

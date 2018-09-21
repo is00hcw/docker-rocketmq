@@ -1,0 +1,81 @@
+2018-09-10 09:40:08 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@16022d9d
+2018-09-10 09:40:08 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+2018-09-10 09:40:08 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+2018-09-10 09:40:08 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+2018-09-10 09:40:08 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+2018-09-10 09:40:09 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@229d10bd
+2018-09-10 09:40:09 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@47542153
+2018-09-10 09:40:09 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@33afa13b
+2018-09-10 09:40:09 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7a4ccb53
+2018-09-10 09:40:09 ERROR main - Error occured when looking for resource file META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78) ~[na:1.8.0_181]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97) ~[na:1.8.0_181]
+	at org.apache.rocketmq.broker.util.ServiceProvider.loadClass(ServiceProvider.java:131) ~[rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialTransaction(BrokerController.java:466) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialize(BrokerController.java:460) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.createBrokerController(BrokerStartup.java:218) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58) [rocketmq-broker-4.3.0.jar:4.3.0]
+2018-09-10 09:40:09 ERROR main - Error occured when looking for resource file META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78) ~[na:1.8.0_181]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97) ~[na:1.8.0_181]
+	at org.apache.rocketmq.broker.util.ServiceProvider.loadClass(ServiceProvider.java:131) ~[rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialTransaction(BrokerController.java:471) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialize(BrokerController.java:460) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.createBrokerController(BrokerStartup.java:218) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58) [rocketmq-broker-4.3.0.jar:4.3.0]
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@16022d9d
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5db250b4
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@233fe9b6
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@358ee631
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@ec756bd
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@359f7cdf
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1fa268de
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4f6ee6e4
+2018-09-10 10:12:41 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4466af20
+2018-09-10 10:12:41 ERROR main - Error occured when looking for resource file META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78) ~[na:1.8.0_181]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97) ~[na:1.8.0_181]
+	at org.apache.rocketmq.broker.util.ServiceProvider.loadClass(ServiceProvider.java:131) ~[rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialTransaction(BrokerController.java:466) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialize(BrokerController.java:460) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.createBrokerController(BrokerStartup.java:218) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58) [rocketmq-broker-4.3.0.jar:4.3.0]
+2018-09-10 10:12:41 ERROR main - Error occured when looking for resource file META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78) ~[na:1.8.0_181]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97) ~[na:1.8.0_181]
+	at org.apache.rocketmq.broker.util.ServiceProvider.loadClass(ServiceProvider.java:131) ~[rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialTransaction(BrokerController.java:471) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialize(BrokerController.java:460) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.createBrokerController(BrokerStartup.java:218) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58) [rocketmq-broker-4.3.0.jar:4.3.0]
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@16022d9d
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5db250b4
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@233fe9b6
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@358ee631
+2018-09-10 11:49:11 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@ec756bd
+2018-09-10 11:49:12 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@359f7cdf
+2018-09-10 11:49:12 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1fa268de
+2018-09-10 11:49:12 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4f6ee6e4
+2018-09-10 11:49:12 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4466af20
+2018-09-10 11:49:12 ERROR main - Error occured when looking for resource file META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78) ~[na:1.8.0_181]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97) ~[na:1.8.0_181]
+	at org.apache.rocketmq.broker.util.ServiceProvider.loadClass(ServiceProvider.java:131) ~[rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialTransaction(BrokerController.java:466) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialize(BrokerController.java:460) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.createBrokerController(BrokerStartup.java:218) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58) [rocketmq-broker-4.3.0.jar:4.3.0]
+2018-09-10 11:49:12 ERROR main - Error occured when looking for resource file META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener
+java.lang.NullPointerException: null
+	at java.io.Reader.<init>(Reader.java:78) ~[na:1.8.0_181]
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:97) ~[na:1.8.0_181]
+	at org.apache.rocketmq.broker.util.ServiceProvider.loadClass(ServiceProvider.java:131) ~[rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialTransaction(BrokerController.java:471) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerController.initialize(BrokerController.java:460) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.createBrokerController(BrokerStartup.java:218) [rocketmq-broker-4.3.0.jar:4.3.0]
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58) [rocketmq-broker-4.3.0.jar:4.3.0]
