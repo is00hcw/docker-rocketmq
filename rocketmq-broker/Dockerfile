@@ -20,6 +20,6 @@ ENV BROKER_IP 106.52.253.17
 
 # https://www.guonanjun.com/183.html
 RUN echo -e "\nbrokerIP1 = ${BROKER_IP}\n" >> ./conf/broker.conf && sed -i 's/-Xms8g -Xmx8g -Xmn4g/${MEMORY_CONF}/g' ${ROCKETMQ_HOME}/bin/runbroker.sh
-
+RUN echo -e "listenPort=10026\n" >> ./conf/broker-a.properties
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT="${JAVA_OPT} -Duser.home=/opt" && sh mqbroker -n ${NAMESRV_ADDR} -c ../conf/broker.conf
