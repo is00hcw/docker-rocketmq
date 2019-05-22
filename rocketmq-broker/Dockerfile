@@ -15,7 +15,7 @@ EXPOSE 10909 10911
 
 ENV NAMESRV_ADDR namesrv:9876
 ENV MEMORY_CONF "-Xms256m -Xmx2048m -Xmn256m"
-ENV BROKER_IP 106.52.253.17
+# ENV BROKER_IP 
 
 
 # https://www.guonanjun.com/183.html
